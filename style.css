@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(white, gray);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;  /* el espacio entre las cosas*/ 
+    border-radius: 30px;
+}
+
+/*header img {
+    height: 50px;
+}*/ 
+
+nav ul {
+    list-style: none; /*quita las viñetas */
+   display: flex; 
+    justify-content: space-around; /*justifica el contenido para que quede centrado pero con espacios */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#t1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+/*#t2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}*/  
+
+.texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.noticia{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.imagen img{
+  width: 500px;   /*ancho*/     
+  height: 300px;   /*alto*/    
+  border-radius: 10px;  /* la hace un circulo :) */
+  border: 1px solid black;
+
+
+}
+
+
+video{
+    border: 1px solid black;
+}
+
+
